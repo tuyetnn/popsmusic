@@ -6,3 +6,8 @@ footer{
   background-color: #ffffff;
   padding:5%;
   color:#000000;}
+  .navbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+  }
