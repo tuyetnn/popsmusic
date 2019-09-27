@@ -1,8 +1,8 @@
 html{
   background-color: red;
 }
-.navbar {
-  width: 100%;
-  background-color: white;
-  overflow: auto;
-}
+footer{
+  width:100%;
+  background-color: #ffffff;
+  padding:5%;
+  color:#000000;}
