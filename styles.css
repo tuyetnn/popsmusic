@@ -1,29 +1,24 @@
 html{
   background-color: red;
 }
-
-.nav {
-  background-color: white;
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-
+/*NAVIGATION BAR*/
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
 
-.nav li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
-
+.nav li{
+    display:inline;
 }
+/*END OF NAVIGATION BAR(I think)*/
 
-
-a {
-  display: block;
-  padding: 8px;
-  background-color: 	#000000;
-    font-size: 2em;
+.nav a{
+    display:inline-block;
+    padding:10px;
 }
 form{
   float: right;
@@ -31,14 +26,18 @@ form{
     padding: 0;
 }
 
-.icon{
-  text-align: left;
-  font-size: 50px;
+ul.icons{
+    list-style: none;
+    text-align: center;
+}
+ul.icons li {
+    display: inline-block;
 }
 
-
+/*FOOTER*/
 footer{
   width:100%;
   background-color: #ffffff;
   padding:5%;
   color:#000000;}
+/*END OF FOOTER*/
