@@ -10,15 +10,24 @@ html{
     padding:0;
     text-align:center;
 }
+.glyphicon{
+  color: black;
+  height: 50;
+  width: 60;
+  float: right;
+  display: inline-block;
+margin: 1px;
 
+}
 .nav li{
     display:inline;
+
 }
 /*END OF NAVIGATION BAR(I think)*/
 
 .nav a{
     display:inline-block;
-    padding:10px;
+    padding:50px;
 }
 form{
   float: right;
@@ -26,18 +35,19 @@ form{
     padding: 0;
 }
 
-ul.icons{
-    list-style: none;
-    text-align: center;
-}
-ul.icons li {
-    display: inline-block;
-}
-
 /*FOOTER*/
 footer{
   width:100%;
   background-color: #ffffff;
   padding:5%;
-  color:#000000;}
-/*END OF FOOTER*/
+  color:#000000;
+}
+
+/*icon colors*/
+
+.fa-facebook {
+	color: red;
+}
+.fa-instagram {
+	color: red;
+}
