@@ -1,53 +1,76 @@
-html{
+html {
   background-color: red;
 }
+
 /*NAVIGATION BAR*/
-.nav{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+.nav {
+  border: solid 3px black;
+  top: 10px;
+  width: 1100px;
+  list-style: none;
+  margin: 0;
+  padding: 1% 0;
+  font-size: 1.4em;
+  background-color: maroon;
+  float: center;
 }
-.glyphicon{
+
+/*list words in nav*/
+.nav li {
+  display: inline;
+  float: center;
+  display: block;
+  text-decoration: none;
+}
+
+/*chu*/
+#navbar a {
+  float: center;
+  display: block;
   color: black;
-  height: 50;
-  width: 60;
-  float: right;
-  display: inline-block;
-margin: 1px;
-
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
 }
-.nav li{
-    display:inline;
 
-}
-/*END OF NAVIGATION BAR(I think)*/
-
-.nav a{
-    display:inline-block;
-    padding:50px;
-}
-form{
+form {
   float: right;
   margin: auto;
-    padding: 0;
+  padding: 0;
 }
 
 /*FOOTER*/
-footer{
-  width:100%;
+footer {
+  width: 100%;
   background-color: #ffffff;
-  padding:5%;
-  color:#000000;
+  padding: 5%;
+  color: #000000;
 }
 
 /*icon colors*/
-
 .fa-facebook {
-	color: red;
+  color: red;
 }
+
 .fa-instagram {
-	color: red;
+  color: red;
 }
+
+/*Font Awesome*/
+.fa {
+  padding: 25px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.fa:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
