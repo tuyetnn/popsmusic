@@ -2,11 +2,11 @@ html {
   background-color: red;
 }
 
-/*NAVIGATION BAR*/
+/*NAVIGATION BARm*/
 .nav {
   border: solid 3px black;
   top: 10px;
-  width: 1100px;
+  width: 800px;
   list-style: none;
   margin: 0;
   padding: 1% 0;
@@ -15,15 +15,14 @@ html {
   float: center;
 }
 
-/*list words in nav*/
+/*list words in nav m*/
 .nav li {
   display: inline;
   float: center;
   display: block;
   text-decoration: none;
 }
-
-/*chu*/
+/*word*/
 #navbar a {
   float: center;
   display: block;
@@ -32,6 +31,9 @@ html {
   padding: 20px;
   text-decoration: none;
   font-size: 20px;
+}
+.fa-shopping-cart{
+  float: right;
 }
 
 form {
