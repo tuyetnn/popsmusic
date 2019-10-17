@@ -5,10 +5,8 @@ html {
 /*NAVIGATION BARm*/
 .nav {
   border: solid 3px black;
-  top: 10px;
-  width: 800px;
+  width: 1150px;
   list-style: none;
-  margin: 0;
   padding: 1% 0;
   font-size: 1.4em;
   background-color: maroon;
@@ -34,13 +32,9 @@ html {
 }
 .fa-shopping-cart{
   float: right;
+  display: inline;
 }
 
-form {
-  float: right;
-  margin: auto;
-  padding: 0;
-}
 
 /*FOOTER*/
 footer {
@@ -75,4 +69,14 @@ footer {
   .fa {
     font-size: 20px;
     padding: 10px;
+  }
+  .carousel-item,
+  .carousel-inner,
+  .carousel-inner img {
+    height: 100%;
+    width: a;
+  }
+
+  .carousel-item {
+    text-align: center;
   }
