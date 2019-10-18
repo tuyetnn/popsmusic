@@ -2,6 +2,12 @@ html {
   background-color: red;
 }
 
+/*logo*/
+navbar-brand.resize {
+  float: left;
+  max-height:100px;
+  padding: 6px 4px;
+}
 /*NAVIGATION BARm*/
 .nav {
   border: solid 3px black;
@@ -74,9 +80,9 @@ footer {
   .carousel-inner,
   .carousel-inner img {
     height: 100%;
-    width: a;
+    width: center;
   }
 
   .carousel-item {
-    text-align: center;
+    text-align: fit;
   }
