@@ -24,20 +24,14 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" width="100" height="60"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-
-
-
-
-
-    <!--Pages-->
-    <div class="container1"
-     <div id="navbar">
-
-      <ul class="nav navbar-nav navbar-center">
+<!--Pages-->
+    <div id="navbar" >
+      <ul class="nav justify-content-center">
         <li class="nav-item ">
           <a class="nav-link" href="index.html">Home</a>
         </li>
@@ -56,15 +50,13 @@
         <li class="nav-item">
           <a class="nav-link" href="sound.html">Sound System</a>
         </li>
-  </div>
-
-      </ul>
-
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      <i class='fas fa-shopping-cart' style=font-size:30px;></i>
+    </div>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+    <i class='fas fa-shopping-cart' style=font-size:30px;></i>
   </nav>
 
   </div>
@@ -72,31 +64,64 @@
   <!--Carousel-->
 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/pop.jpg" class="d-block w-100" alt="...">
-    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/pop.jpg" class="d-block w-100" alt="">
+
+      </div>
+      <div class="carousel-item">
+        <img src="img/guitar.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/new.jpg" class="d-block w-100" alt="...">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/guitar.jpg" class="d-block w-100" alt="..." >
-    </div>
-    <div class="carousel-item">
-      <img src="img/new.jpg" class="d-block w-100" alt="...">
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!--info in middle of page-->
+  <!--row 1-->
+  <div class="container-fluid text-center">
+    <h2></h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>About Us</h3>
+        <h4 Align="center">We are a full line store offering sales, service, lessons, rentals, and consulting.
+          As a new store, we pledge to have the instruments you want and the accessories you need. We also offer sound system installs, repairs, and service.
+          Band instruments are vital to our school music programs and Pop’s can set you up with quality instruments at affordable prices. Our lesson program is full of the most experienced,
+          qualified, and professional teachers. Give us a call or stop by today.</h4>
+
+      </div>
+      <!--info row 2-->
+      <div class="col-sm-4">
+
+        <h3>Location</h3>
+        <h4>We are located at 76 Federal Drive in<br> Jackson Tennessee<h4>
+            <img src="img/where.png" width="5" height="5" id="icon">
+
+      </div>
+      <!--info row 3-->
+      <div class="col-sm-4">
+
+        <h3>Hours</h3>
+        <h4>We are open 7 days a week to serve you!<br><br>
+          Sunday 1pm-5pm
+          <br><br>
+          Mon-Fri 10am-7pm
+          <br><br>
+          Saturday 10am-5pm
+
+      </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-
-
+  <br> <br>
 
   <!--FOOTER (end of website everything else is before this)-->
 
@@ -104,22 +129,23 @@
     <div class="row">
       <!--Contact (phone number and store adress)-->
       <div class="col-sm-4">
+
         <h3>Contact</h3>
 
-        <h4>Telephone:<br>
-          731-660-9995<br><br>
-          Store Address:<br>
-          76 Federal Drive Jackson,TN </h4>
+        <h4>Telephone:<br></h4>
+          <h5>731-660-9995<br><br></h5>
+          <h4>Store Address:<br><h4>
+          <h5>76 Federal Drive Jackson,TN<h5>
       </div>
       <!--Social Media-->
 
       <div class="col-sm-4">
-        <h3>Connect With Us On Social Media!
+        <h3>Connect With Us On Social Media!<h3>
 
           <br>
-          <i href="https://www.instagram.com/popsmusic38305/" class="fab fa-facebook-square fa-2x"></i>
+          <i href="https://m.facebook.com/pop.popsmusic/" class="fab fa-facebook-square fa-2x"></i>
 
-          <i href="https://instagram.com/popsmusic38305" class="fab fa-instagram fa-2x"></i>
+          <i href="https://instagram.com/popsmusic38305/" class="fab fa-instagram fa-2x"></i>
       </div>
       <!--The Logo-->
       <div class="col-sm-4">

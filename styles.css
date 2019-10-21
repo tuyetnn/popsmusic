@@ -1,22 +1,18 @@
-html {
-  background-color: red;
-}
 
 /*logo*/
 navbar-brand.resize {
   float: left;
   max-height:100px;
-  padding: 6px 4px;
+  padding: 6px 10px;
+
 }
 /*NAVIGATION BARm*/
 .nav {
-  border: solid 3px black;
-  width: 1150px;
-  list-style: none;
-  padding: 1% 0;
-  font-size: 1.4em;
-  background-color: maroon;
-  float: center;
+  background-color: #B8860B;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    width: 1400px;
 }
 
 /*list words in nav m*/
@@ -30,9 +26,9 @@ navbar-brand.resize {
 #navbar a {
   float: center;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 40px;;
   text-decoration: none;
   font-size: 20px;
 }
@@ -45,18 +41,17 @@ navbar-brand.resize {
 /*FOOTER*/
 footer {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #B8860B;
   padding: 5%;
-  color: #000000;
-}
+  color: #000000;}
 
 /*icon colors*/
 .fa-facebook {
-  color: red;
+  color: white;
 }
 
 .fa-instagram {
-  color: red;
+  color: white;
 }
 
 /*Font Awesome*/
@@ -71,7 +66,7 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .fa {
     font-size: 20px;
     padding: 10px;
