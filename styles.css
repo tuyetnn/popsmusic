@@ -1,18 +1,17 @@
-
 /*logo*/
 navbar-brand.resize {
   float: left;
-  max-height:100px;
+  max-height: 100px;
   padding: 6px 10px;
-
 }
+
 /*NAVIGATION BARm*/
 .nav {
   background-color: #B8860B;
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: center;
-    width: 1400px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  width: 1400px;
 }
 
 /*list words in nav m*/
@@ -22,28 +21,36 @@ navbar-brand.resize {
   display: block;
   text-decoration: none;
 }
+
 /*word*/
 #navbar a {
   float: center;
   display: block;
   color: white;
   text-align: center;
-  padding: 20px 40px;;
+  padding: 20px 40px;
+  ;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
-.fa-shopping-cart{
+
+.fa-shopping-cart {
   float: right;
   display: inline;
 }
-
+.clsVertical{
+  border-left: 4px solid black;
+  height: 400px;
+  float: left;
+}
 
 /*FOOTER*/
 footer {
   width: 100%;
   background-color: #B8860B;
   padding: 5%;
-  color: #000000;}
+  color: #000000;
+}
 
 /*icon colors*/
 .fa-facebook {
@@ -71,6 +78,7 @@ footer {
     font-size: 20px;
     padding: 10px;
   }
+
   .carousel-item,
   .carousel-inner,
   .carousel-inner img {
