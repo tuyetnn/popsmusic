@@ -19,12 +19,10 @@
 
   <title>About us</title>
 <!--layout it-->
-</head>
-
 <div class="grid-container">
-  <div class="Shop"></div>
+  <div class="top"></div>
+  <div class="items"></div>
   <div class="filters"></div>
-  <div class="nav-and\ stuff"></div>
 </div>
 <!----->
 <body>
@@ -94,123 +92,118 @@
           <ol>
             <li class="amshopby-cat amshopby-cat-level-1">
               <a href="...">
-                Electric Guitar <span class="count">(103)</span>
+                Electric Guitar <span class="count"></span>
               </a>
             </li>
             <li class="amshopby-cat amshopby-cat-level-1">
               <a href="...">
-                Acoustic Guitar <span class="count">(9)</span>
+                Acoustic Guitar <span class="count"></span>
               </a>
             </li>
             <li class="amshopby-cat amshopby-cat-level-1">
               <a href="...">
-                Electro-Acoustic Guitar <span class="count">(3)</span>
+                Electro-Acoustic Guitar <span class="count"></span>
               </a>
             </li>
             <li class="amshopby-cat amshopby-cat-level-1">
               <a href="...">
-                Bass <span class="count">(9)</span>
+                Bass <span class="count"></span>
               </a>
             </li>
-            <li class="amshopby-cat amshopby-cat-level-1" style="display: none;">
+            <li class="amshopby-cat amshopby-cat-level-1">
               <a href="...">
-                Piano <span class="count">(3)</span>
+                Piano <span class="count"></span>
               </a>
             </li>
-            <li class="amshopby-cat amshopby-cat-level-1" style="display: none;">
+            <li class="amshopby-cat amshopby-cat-level-1" >
               <a href="...">
-                Microphones<span class="count">(10)</span>
+                Microphones<span class="count"></span>
               </a>
             </li>
-            <li class="amshopby-cat amshopby-cat-level-1" style="display: none;">
+            <li class="amshopby-cat amshopby-cat-level-1">
               <a href="...">
-                Accessories <span class="count">(1)</span>
+                Accessories <span class="count"></span>
               </a>
             </li>
           </ol>
-          <button class="filter__view-more  js-filter-view-more" data-inactive-text="View More" data-active-text="View Less">
-            View More </button>
-        </dd>
-        <!--filters-->
-        <div class="js-accordion-content">
-          <dl id="narrow-by-list">
-            <dt class="filter__title">
-              Brand <span class="icon-up-open-big  [ filter__title__arrow  filter__title__arrow--active ]"></span>
-              <span class="icon-down-open-big  [ filter__title__arrow  filter__title__arrow--inactive ]"></span>
-            </dt>
-            <dd class="filter__content">
-              <ol>
-                <li data-text="Fender"><a class="amshopby-attr" href="...">Fender</a></li>
-                <li data-text="Gibson"><a class="amshopby-attr" href="...">Gibson</a></li>
-                <li data-text="Ibanez"><a class="amshopby-attr" href="">Ibenez</a></li>
-                <li data-text="Vox"><a class="amshopby-attr" href="...">Vox</a></li>
-                <li data-text="Marshall" style="display: none;"><a class="amshopby-attr" href="...">Marshall</a></li>
-                <li data-text="Orange" style="display: none;"><a class="amshopby-attr" href="...">Orange</a></li>
-                <li data-text="Pearl" style="display: none;"><a class="amshopby-attr" href="...">Pearl</a></li>
-                <li data-text="Roland" style="display: none;"><a class="amshopby-attr" href="...">Roland</a></li>
-                <li data-text="Yamaha" style="display: none;"><a class="amshopby-attr" href="...">Yamaha</a></li>
-                <li data-text="Ernie Ball" style="display: none;"><a class="amshopby-attr" href="...">Ernie Ball</a></li>
-              </ol>
-              <button class="filter__view-more  js-filter-view-more" data-inactive-text="View More" data-active-text="View Less">
-                View More </button>
-            </dd>
 
-            <!--Price Slider-->
-            <div class="range">
-              <input type="range" min="1" max="7" steps="2" value="1">
-            </div>
 
-            <ul class="range-labels">
-              <li class="active selected">$1</li>
-              <li>$5</li>
-              <li>$50</li>
-              <li>$90</li>
-              <li>$100</li>
-              <li>$500</li>
-              <li>$1000</li>
-            </ul>
-            <!--products-->
-<div align=center>
-            <div class="grid-container">
-              <div class="grid-item">
-                <a href="#" class="view-product">
-                  <img src="http://placehold.it/200x150&text=4:3">
-                  <h2 class="product-name">Austin ATC250BC Single Cut Electric Guitar Butterscotch
-</h2>
-                  <h3 class="price">$149.99</h3>
-                </a>
-                <a href="#" class="add-to-cart">Add to cart</a>
-              </div>
 
-              <div class="grid-item">
-                <a href="#" class="view-product">
-                  <img src="http://placehold.it/200x150&text=4:3">
-                  <h2 class="product-name">Amazing item</h2>
-                  <h3 class="price"></h3>
-                </a>
-                <a href="#" class="add-to-cart">Add to cart</a>
-              </div>
+<!----->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-2">
+					<ul class="nav flex-column">
+						<!--filters-->
+            <div class="js-accordion-content">
+              <dl id="narrow-by-list">
+                <dt class="filter__title">
+                  Brand <span class="icon-up-open-big  [ filter__title__arrow  filter__title__arrow--active ]"></span>
+                  <span class="icon-down-open-big  [ filter__title__arrow  filter__title__arrow--inactive ]"></span>
+                </dt>
+                <dd class="filter__content">
+                  <ol>
+                    <li data-text="Fender"><a class="amshopby-attr" href="...">Fender</a></li>
+                    <li data-text="Gibson"><a class="amshopby-attr" href="...">Gibson</a></li>
+                    <li data-text="Ibanez"><a class="amshopby-attr" href="">Ibenez</a></li>
+                    <li data-text="Vox"><a class="amshopby-attr" href="...">Vox</a></li>
+                    <li data-text="Marshall"><a class="amshopby-attr" href="...">Marshall</a></li>
+                    <li data-text="Orange"><a class="amshopby-attr" href="...">Orange</a></li>
+                    <li data-text="Pearl"><a class="amshopby-attr" href="...">Pearl</a></li>
+                    <li data-text="Roland"><a class="amshopby-attr" href="...">Roland</a></li>
+                    <li data-text="Yamaha"><a class="amshopby-attr" href="...">Yamaha</a></li>
+                    <li data-text="Ernie Ball"><a class="amshopby-attr" href="...">Ernie Ball</a></li>
+                  </ol>
 
-              <div class="grid-item">
-                <a href="#" class="view-product">
-                  <img src="http://placehold.it/200x150&text=4:3">
-                  <h2 class="product-name">Unreasonably long product name</h2>
-                  <h3 class="price">$24.68</h3>
-                </a>
-                <a href="#" class="add-to-cart">Add to cart</a>
-              </div>
 
-              <div class="grid-item">
-                <a href="#" class="view-product">
-                  <img src="http://placehold.it/200x150&text=4:3">
-                  <h2 class="product-name">Super cheap item</h2>
-                  <h3 class="price">$0.99</h3>
-                </a>
-                <a href="#" class="add-to-cart">Add to cart</a>
-              </div>
+                <!--Price Slider-->
+                <div class="range">
+                  <input type="range" min="1" max="7" steps="2" value="1">
+                </div>
 
-            </div>
+                <ul class="range-labels">
+                  <li class="active selected">$1</li>
+                  <li>$5</li>
+                  <li>$50</li>
+                  <li>$90</li>
+                  <li>$100</li>
+                  <li>$500</li>
+                  <li>$1000</li>
+                </ul>
+            <!--end filters-->
 
+         </li>
+       </ul>
+     </div>
+     <div class="card" style="width: 18rem;">
+ <img class="card-img-top" src="..." alt="Card image cap">
+ <div class="card-body">
+   <h5 class="card-title">Card title</h5>
+   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   <a href="#" class="btn btn-primary">Go somewhere</a>
+ </div>
+</div>
+
+
+  <div class="card" style="width: 18rem;" >
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
 
 
 
