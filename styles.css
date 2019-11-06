@@ -12,7 +12,7 @@ navbar-brand.resize {
   margin-bottom: 0;
   border-radius: 0;
   background-color:
-#B8860B;
+ darkgoldenrod;
   color: 	#fff;
   padding: 1% 0;
   font-size: 1em;
@@ -39,12 +39,10 @@ navbar-brand.resize {
   text-decoration: none;
   font-size: 30px;
 }
-
-.fa-shopping-cart {
-  float: right;
-  display: inline;
-  color: black;
+.link{
+  background-color: #b8860b;
 }
+
 .clsVertical{
   border-left: 4px solid black;
   height: 400px;
@@ -53,9 +51,9 @@ navbar-brand.resize {
 
 form.form-inline button{
   float: left;
-  height: 20%;
+  height: 25%;
 width: 25%;
-padding: 15px;
+padding: 12px ;
 background: black;
 color: white;
 font-size: 17px;
@@ -66,6 +64,7 @@ cursor: pointer;
 }
 input[type=submit] {
   background-color: black;
+
 }
 
 input[type=search] {
@@ -169,7 +168,7 @@ span.price {
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   .row {
     flex-direction: column-reverse;
   }
@@ -177,7 +176,10 @@ span.price {
     margin-bottom: 20px;
   }
 }
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 
 /*FOOTER*/
