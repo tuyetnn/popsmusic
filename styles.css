@@ -230,7 +230,7 @@ footer {
   .carousel-item {
     text-align: fit;
   }
-/*slide bar not working*/
+/*button price options*/
 .Low{
   background-color:#D4AF37;
 }
@@ -242,7 +242,8 @@ footer {
 .High{
   background-color:#D4AF37;
 }
-/* layout it*/
+
+/*layout it*/
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
