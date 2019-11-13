@@ -10,6 +10,7 @@ body {
 /*styles for the navigation*/
 =======
 >>>>>>> c76193f78bb20be802f47334c9d8a6dc32eb51c0
+
 /*logo*/
 navbar-brand.resize {
   float: left;
@@ -17,31 +18,33 @@ navbar-brand.resize {
   padding: 6px 10px;
 }
 
-
-/* top box*/
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  background-color:
- darkgoldenrod;
-  color: 	#fff;
+.navbar{
+  background-color:darkgoldenrod;
+margin-bottom: 0;
+border-radius: 0;
+color: black;
   padding: 1% 0;
-  font-size: 1em;
+  font-size: 1.5em;
   border: 0;
-
 }
-
-/*list words in nav m*/
-.nav li {
-  display: inline;
-  float: center;
+/*home box*/
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+  color: black;
+  background-color: black;
+  margin:auto;
+}
+li a {
   display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  float: left;
 }
 
-/*word*/
 #navbar a {
-  float: center;
+  float: fleft;
   display: block;
   color: black;
   text-align: center;
@@ -50,10 +53,10 @@ navbar-brand.resize {
   text-decoration: none;
   font-size: 30px;
 }
-/*cart link*/
-.link{
-  background-color: #b8860b;
-}
+
+
+
+
 
 .clsVertical{
   border-left: 4px solid black;
