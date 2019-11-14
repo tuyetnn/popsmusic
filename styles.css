@@ -1,39 +1,43 @@
-<<<<<<< HEAD
-* {
+<<<<<<< HEAD * {
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial;
   font-size: 17px;
   padding: 8px;
 }
+
 /*styles for the navigation*/
-=======
->>>>>>> c76193f78bb20be802f47334c9d8a6dc32eb51c0
+=======>>>>>>>c76193f78bb20be802f47334c9d8a6dc32eb51c0
 
 /*logo*/
 navbar-brand.resize {
   float: left;
   max-height: 100px;
-  padding: 6px 10px;
+  padding: 10px 20px;
 }
 
-.navbar{
-  background-color:darkgoldenrod;
-margin-bottom: 0;
-border-radius: 0;
-color: black;
+/*navigation*/
+.navbar {
+  text-transform: uppercase;
+  background-color: darkgoldenrod;
+  margin-bottom: 0;
+  border-radius: 0;
+  color: black;
   padding: 1% 0;
   font-size: 1.5em;
   border: 0;
 }
+
 /*home box*/
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
   color: black;
   background-color: black;
-  margin:auto;
+  margin: auto;
 }
+
 li a {
   display: block;
   color: black;
@@ -41,6 +45,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   float: left;
+  margin-right: 25px;
 }
 
 #navbar a {
@@ -54,9 +59,9 @@ li a {
   font-size: 30px;
 }
 
-
-
-
+.link{
+  background-color: #b8860b;
+}
 
 .clsVertical{
   border-left: 4px solid black;
@@ -87,31 +92,33 @@ input[type=search] {
 }
 
 
+
 /*cart.html*/
-
-
-
-
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
+  /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
+  /* IE10 */
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
+  /* IE10 */
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%;
+  /* IE10 */
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; /* IE10 */
+  -ms-flex: 75%;
+  /* IE10 */
   flex: 75%;
 }
 
@@ -181,120 +188,134 @@ span.price {
   .row {
     flex-direction: column-reverse;
   }
+
   .col-25 {
     margin-bottom: 20px;
   }
 }
+
 @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
+  width: device-width;
+  zoom: 1.0;
 }
 
-
-/*FOOTER*/
-footer {
-  width: 100%;
-  background-color: #B8860B;
-  padding: 5%;
-  color: #000000;
-}
-
-/*icon colors*/
-.fa-facebook {
-  color: white;
-
-}
-
-.fa-instagram {
-  color: white;
-
-
-}
-
-/*Font Awesome*/
-.fa {
-  padding: 25px;
-  font-size: 30px;
-  color: #000000;
-}
-
-.fa:hover {
-  color: #000000;
-  text-decoration: none;
-}
-.carousel-item,
-.carousel-inner,
-.carousel-inner img {
-  height: 100%;
-  width: center;
-}
-
-.carousel-item {
-  text-align: fit;
-}
-/*button price options*/
-.Low{
-background-color:#D4AF37;
-}
-
-.Medium{
-background-color:#D4AF37;
-}
-
-.High{
-background-color:#D4AF37;
-}
-
-
-
-
-
-
-
-/*css for store*/
-
-.sidenav {
-height: 100%;
-width: 160px;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: #111;
-overflow-x: hidden;
-padding-top: 20px;
-}
-
-.sidenav a {
-padding: 6px 8px 6px 16px;
-text-decoration: none;
-font-size: 25px;
-color: #818181;
-display: block;
-}
-
-.sidenav a:hover {
-color: #f1f1f1;
-}
-
-.main {
-margin-left: 160px; /* Same as the width of the sidenav */
-font-size: 28px; /* Increased text to enable scrolling */
-padding: 0px 10px;
-}
-
-
-/*this is for ipads*/
-@media (max-width: 1025px) {
-  .fa {
-    font-size: 20px;
-    padding: 10px;
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    padding: 0 .5em;
   }
-}
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+  .container {
+    width: 90%;
+  }
 
-/*End of store page*/
+  nav {
+    height: 0;
+    overflow: hidden;
+  }
+
+  /*FOOTER*/
+  footer {
+    width: 100%;
+    background-color: #B8860B;
+    padding: 5%;
+    color: #000000;
+  }
+
+  /*icon colors*/
+  .fa-facebook {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+
+  /*Font Awesome*/
+  .fa {
+    padding: 25px;
+    font-size: 30px;
+    color: #000000;
+  }
+
+  .fa:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .carousel-item,
+  .carousel-inner,
+  .carousel-inner img {
+    height: 100%;
+    width: center;
+  }
+
+  .carousel-item {
+    text-align: fit;
+  }
+
+  /*button price options*/
+  .Low {
+    background-color: #D4AF37;
+  }
+
+  .Medium {
+    background-color: #D4AF37;
+  }
+
+  .High {
+    background-color: #D4AF37;
+  }
+
+  /*css for store*/
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  /*this is for ipads*/
+  @media (max-width: 1025px) {
+    .fa {
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+
+  /*End of store page*/
