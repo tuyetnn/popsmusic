@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
   box-sizing: border-box;
 }
@@ -8,8 +8,8 @@ body {
   padding: 8px;
 }
 /*styles for the navigation*/
-=======
->>>>>>> c76193f78bb20be802f47334c9d8a6dc32eb51c0
+
+
 /*logo*/
 navbar-brand.resize {
   float: left;
@@ -84,7 +84,7 @@ input[type=search] {
 }
 
 
-/*cart.html*/
+/*cart.html content */
 
 
 
@@ -145,7 +145,7 @@ label {
 }
 
 .btn {
-  background-color: #4CAF50;
+  background-color: #800000;
   color: white;
   padding: 12px;
   margin: 10px 0;
@@ -157,11 +157,11 @@ label {
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: 800000;
 }
 
 a {
-  color: #2196F3;
+  color: white;
 }
 
 hr {
@@ -173,19 +173,7 @@ span.price {
   color: grey;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-@media (max-width: 480px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
+
 
 
 /*FOOTER*/
@@ -248,36 +236,24 @@ background-color:#D4AF37;
 
 
 
-/*css for store*/
+/*css for store page*/
 
-.sidenav {
-height: 100%;
-width: 160px;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: #111;
-overflow-x: hidden;
-padding-top: 20px;
+
+
+
+/*ok*/
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
 }
-
-.sidenav a {
-padding: 6px 8px 6px 16px;
-text-decoration: none;
-font-size: 25px;
-color: #818181;
-display: block;
-}
-
-.sidenav a:hover {
-color: #f1f1f1;
-}
-
-.main {
-margin-left: 160px; /* Same as the width of the sidenav */
-font-size: 28px; /* Increased text to enable scrolling */
-padding: 0px 10px;
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
 
