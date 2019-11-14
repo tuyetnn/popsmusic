@@ -10,6 +10,7 @@
   <meta name="Tuyet Nguyen, Ellie Pugh" content="">
 
   <!--bootstrap css-->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!--^^ something alighnment related-->
   <!--font awesome-->
@@ -69,28 +70,39 @@
 <!--start of side nav-->
 <div class="row">
    <div class="col-md-6">
-     <div class="filters">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category
+
+  <button class="btn dropdown-toggle categorybrand" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">....</button>
-    <button class="dropdown-item" type="button">Another action</button>
-    <button class="dropdown-item" type="button">Something else here</button>
+    <button class="dropdown-item" type="button">Electric Guitar </button>
+    <button class="dropdown-item" type="button">Acoustic Guitar</button>
+    <button class="dropdown-item" type="button">Bass Guitar </button>
+    <button class="dropdown-item" type="button">Amplifiers </button>
+    <button class="dropdown-item" type="button">Piano </button>
+    <button class="dropdown-item" type="button">Microphones</button>
+    <button class="dropdown-item" type="button">Other </button>
+
   </div>
-</div>
 </div>
 
 
 
 <div class="col-md-6">
   <div class="filters">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Brand
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">....</button>
-    <button class="dropdown-item" type="button">Another action</button>
-    <button class="dropdown-item" type="button">Something else here</button>
+    <button class="dropdown-item" type="button">Fender</button>
+    <button class="dropdown-item" type="button">Gibson</button>
+    <button class="dropdown-item" type="button">Ibenez</button>
+    <button class="dropdown-item" type="button">Marshall</button>
+    <button class="dropdown-item" type="button">Orange</button>
+    <button class="dropdown-item" type="button">Pearl</button>
+    <button class="dropdown-item" type="button">Roland</button>
+    <button class="dropdown-item" type="button">Yamaha</button>
+    <button class="dropdown-item" type="button">Ernie Ball</button>
+
   </div>
 </div>
 </div>
@@ -103,12 +115,13 @@
       </li>
       </ul>
   </div>
+
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="img/starburst.png" alt="Starburst Guitar">
     <div class="card-body">
       <h5 class="card-title">Kansas Double Cutaway S Style Electric Guitar Sunburst</h5>
       <p class="card-text">Starburst coulored guitar. No case included. No bag included. In good condition</p>
-      <a href="#" class="btn btn-primary">view</a>
+      <a href="#" class="btn">view</a>
       <h5> $90.00</h5>
     </div>
   </div>
@@ -119,7 +132,7 @@
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn">Go somewhere</a>
     </div>
   </div>
 
@@ -128,7 +141,7 @@
     <div class="card-body">
       <h5 class="card-title">...</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn">Go somewhere</a>
     </div>
   </div>
 
@@ -170,49 +183,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <!--Slider Javascript (store page)-->
-  <script>
-    var sheet = document.createElement('style'),
-      $rangeInput = $('.range input'),
-      prefs = ['webkit-slider-runnable-track', 'moz-range-track', 'ms-track'];
 
-    document.body.appendChild(sheet);
 
-    var getTrackStyle = function(el) {
-      var curVal = el.value,
-        val = (curVal - 1) * 16.666666667,
-        style = '';
 
-      // Set active label
-      $('.range-labels li').removeClass('active selected');
 
-      var curLabel = $('.range-labels').find('li:nth-child(' + curVal + ')');
 
-      curLabel.addClass('active selected');
-      curLabel.prevAll().addClass('selected');
-
-      // Change background gradient
-      for (var i = 0; i < prefs.length; i++) {
-        style += '.range {background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #fff ' + val + '%, #fff 100%)}';
-        style += '.range input::-' + prefs[i] + '{background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
-      }
-
-      return style;
-    }
-
-    $rangeInput.on('input', function() {
-      sheet.textContent = getTrackStyle(this);
-    });
-
-    // Change input value on label click
-    $('.range-labels li').on('click', function() {
-      var index = $(this).index();
-
-      $rangeInput.val(index + 1).trigger('input');
-
-    });
-  </script>
-  <!--Javascript for scroll-->
 
 
 
