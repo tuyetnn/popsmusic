@@ -50,7 +50,7 @@ li a {
 }
 
 #navbar a {
-  float: fleft;
+  float: left;
   display: block;
   color: black;
   text-align: center;
@@ -69,7 +69,6 @@ li a {
   height: 400px;
   float: left;
 }
-
 form.form-inline button{
   float: left;
   height: 25%;
@@ -91,7 +90,6 @@ input[type=submit] {
 input[type=search] {
   background-color: white;
 }
-
 
 /*cart.html content */
 
@@ -201,7 +199,7 @@ footer {
 /*icon colors*/
 .fa-facebook {
   color: white;
-
+}
 
 @viewport {
   width: device-width;
@@ -209,9 +207,10 @@ footer {
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+
   body {
     padding: 0 .5em;
+
   }
 
   .container {
@@ -220,7 +219,6 @@ footer {
 
   nav {
     height: 0;
-    overflow: hidden;
   }
 
   /*FOOTER*/
