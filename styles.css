@@ -28,13 +28,6 @@ navbar-brand.resize {
   border: 0;
 }
 
-/*home box*/
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
-.navbar-inverse .navbar-nav .active a:hover {
-  color: black;
-  background-color: black;
-  margin: auto;
-}
 
 li a {
   display: block;
