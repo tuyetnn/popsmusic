@@ -68,11 +68,11 @@ input[type=submit] {
 input[type=text] {
   background-color: white;
   border: 1px solid black;
- 
+
 margin-top: 30px;
 }
 
-/*start o rental page*/
+/*start of rental page*/
 table{
   border-width:2px ;
   border-style: solid;
@@ -244,9 +244,7 @@ footer {
   body {
     padding: 0 .5em;
   }
-form.form-inline button{
-  ;
-}
+
   .container {
     width: 100%;
   }
