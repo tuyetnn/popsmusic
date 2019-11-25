@@ -72,12 +72,15 @@ margin-top: 30px;
 
 /*start of rental page*/
 
-/*start of rental page*/
-.Rental{
-  border-style: solid;
+h1{
+  text-align: center;
+}
+.container-header{
+border-style: 1px solid black;
+
 }
 table {
-  border: 1px solid black;
+  border: 3px solid;
   border-collapse: collapse;
   margin: 0;
   padding: 0;
