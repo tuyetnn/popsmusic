@@ -232,7 +232,21 @@ footer {
 .card{
   margin-bottom: 10px;
 }
-/*end store page
+/*end store page*/
+/*Lessons*/
+
+.float-image{
+  float:right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: solid black 2px;
+}
+
+.content-box{
+  background: linear-gradient(#f69d3c, #3f87a6);
+  text-align: center;
+}
+/*end lesson page*/
 
 
 
