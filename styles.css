@@ -240,15 +240,21 @@ footer {
 .display-4{
   text-align: center;
 }
+.jumbotron{
+  background-color:#ff4d4d;
+
+}
 /*end*/
-.float{
+.float-img{
   float: right;
-}
-h2{
-  border-radius: 2px solid black;
+margin-right: 10px;
+margin-bottom: 25px;
+    border: 2px solid black;
 }
 
-
+.row-anna{
+  margin-bottom: 30px;
+}
 
 
 
