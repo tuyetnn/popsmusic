@@ -233,19 +233,40 @@ footer {
   margin-bottom: 10px;
 }
 /*end store page*/
+
 /*Lessons*/
 
-.float-image{
-  float:right;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  border: solid black 2px;
-}
-
-.content-box{
-  background: linear-gradient(#f69d3c, #3f87a6);
+/*jumbotron*/
+.display-4{
   text-align: center;
 }
+.jumbotron{
+  background-color:#ff4d4d;
+
+}
+/*end*/
+.float-img{
+  float: right;
+margin-right: 10px;
+margin-bottom: 25px;
+    border: 2px solid black;
+}
+
+
+.row-anna{
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+}
+
+
 /*end lesson page*/
 
 
