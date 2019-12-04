@@ -261,17 +261,6 @@ hr{
   max-height: 300px;
 }
 
-.col-4{
-  justify-content: center !important;
-}
-/*.popsmusiclogo{
-  width:auto;
-  height:auto !important;
-  max-width: 400px;
-  max-height: 215px;
-
-}
-*/
 
 
 /*end lesson page*/
@@ -286,7 +275,7 @@ footer {
   color: #000000;
 }
 
-
+/*reviews*/
 
 /* Landscape phones and down */
 @media screen and (max-width: 900px) {
