@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  font-size: 17px;
+  font-size: 18px;
   padding: 8px;
 }
 
@@ -21,6 +21,9 @@ navbar-brand.resize {
   font-size: 1.5em;
   border: 0;
 }
+.navbar-collapse{
+  margin-right: 10px;
+}
 
 .navbar-toggler collapsed{
   border-color: black;
@@ -31,15 +34,16 @@ li a {
   display: block;
   color: black !important;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   float: left;
-  margin-right: 25px;
+  margin-right: 35px;
 }
 
+
+}
 .link {
   background-color: darkgoldenrod;
-  margin-right: 15px;
+  margin-right: 50px;
 }
 
 .clsVertical {
@@ -90,31 +94,30 @@ table td {
 
 /*cart.html content */
 /*cart.html*/
+* {
+  box-sizing: border-box;
+}
+
 .row {
-  display: -ms-flexbox;
-  /* IE10 */
+  display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap;
-  /* IE10 */
+  -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  margin: 0 -px;
+  margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%;
-  /* IE10 */
+  -ms-flex: 25%; /* IE10 */
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%;
-  /* IE10 */
+  -ms-flex: 50%; /* IE10 */
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%;
-  /* IE10 */
+  -ms-flex: 75%; /* IE10 */
   flex: 75%;
 }
 
@@ -151,7 +154,7 @@ label {
 }
 
 .btn {
-  background-color: #800000;
+  background-color: #4CAF50;
   color: white;
   padding: 12px;
   margin: 10px 0;
@@ -161,13 +164,16 @@ label {
   cursor: pointer;
   font-size: 17px;
 }
-
 .btn:hover {
-  background-color: #800000;
+  background-color: #45a049;
 }
 
 a {
-  color: white;
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
 }
 
 span.price {
