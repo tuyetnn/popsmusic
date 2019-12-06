@@ -84,7 +84,6 @@ table td {
 
 /*cart.html content */
 /*cart.html*/
-
 * {
   box-sizing: border-box;
 }
@@ -271,6 +270,12 @@ footer {
   body {
     padding: 0 .5em;
   }
+  .row {
+   flex-direction: column-reverse;
+ }
+ .col-25 {
+   margin-bottom: 20px;
+ }
 
   .container {
     width: 90%;
