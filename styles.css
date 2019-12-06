@@ -21,12 +21,11 @@ navbar-brand.resize {
   font-size: 1.5em;
   border: 0;
 }
-
-.navbar-collapse {
+.navbar-collapse{
   margin-right: 10px;
 }
 
-.navbar-toggler collapsed {
+.navbar-toggler collapsed{
   border-color: black;
   border: 2px;
 }
@@ -39,8 +38,9 @@ li a {
   float: left;
   margin-right: 35px;
 }
-}
 
+
+}
 .link {
   background-color: darkgoldenrod;
   margin-right: 50px;
@@ -52,15 +52,17 @@ li a {
   float: left;
 }
 
+
+
 /*start of rental page*/
-h3 {
+
+h3{
   text-align: center;
 }
+.container-header{
+border-style: 1px solid black;
 
-.container-header {
-  border-style: 1px solid black;
 }
-
 table {
   border: 3px solid;
   border-collapse: collapse;
@@ -82,95 +84,36 @@ table td {
   text-align: center;
 }
 
+
+
+
+
+
+
+
+
 /*cart.html content */
 /*cart.html*/
-* {
-  box-sizing: border-box;
+
+.mb-5{
+  text-align: center;
+  color: maroon;
+  font-size: 35px;
+}
+.container-cart{
+  margin-top:50px;
+}
+.container{
+  max-width: 960px;
 }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-}
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.border-top-gray { border-top-color: #adb5bd; }
 
-.col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-}
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
-.col-50 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-}
-
-.col-75 {
-  -ms-flex: 75%; /* IE10 */
-  flex: 75%;
-}
-
-.col-25,
-.col-50,
-.col-75 {
-  padding: 0 16px;
-}
-
-.container {
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-}
-
-input[type=text] {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-label {
-  margin-bottom: 10px;
-  display: block;
-}
-
-.icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
-}
-
-.btn {
-  background-color: maroon;
-  color: white;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  width: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
-}
-
-.btn:hover {
-  background-color: #45a049;
-}
-
-a {
-  color: #2196F3;
-}
-
-hr {
-  border: 1px solid lightgrey;
-}
-
-span.price {
-  float: right;
-  color: grey;
-}
+.lh-condensed { line-height: 1.25; }
 
 /*FOOTER*/
 footer {
@@ -204,58 +147,54 @@ footer {
 }
 
 /*css for store page*/
-.card {
-  margin-bottom: 10px;
-}
 
 /*end store page*/
+
 /* start of Lessons*/
+
 /*jumbotron*/
-.display-4 {
+.display-4{
   text-align: center;
 }
-
-.jumbotron {
-  background-color: #FFF8DC;
+.jumbotron{
+  background-color:#FFF8DC;
 }
-
-p {
+p{
   margin-bottom: 30px;
 }
-
 /*end*/
-.body {
+
+.body{
   background-color: #FFF8DC;
 }
-
-hr {
+hr{
   border: 2px solid black;
 }
-
-.row-brian {
+.row-brian{
   margin-bottom: 30px;
 }
-
-.row-anna {
+.row-anna{
   margin-bottom: 30px;
 }
-
-.row-doug {
+.row-doug{
   padding-bottom: 20px;
 }
-
-.profile {
+.profile{
   max-width: 100%;
   max-height: 300px;
   margin-right: 40px;
 }
-
-h2 {
-  text-align: center;
-  color: #800000;
+h2{
+text-align: center;
+color: 	#800000;
 }
 
+
+
 /*end lesson page*/
+
+
+
 /*FOOTER*/
 footer {
   width: 100%;
@@ -265,17 +204,12 @@ footer {
 }
 
 /*reviews*/
+
 /* Landscape phones and down */
 @media screen and (max-width: 900px) {
   body {
     padding: 0 .5em;
   }
-  .row {
-   flex-direction: column-reverse;
- }
- .col-25 {
-   margin-bottom: 20px;
- }
 
   .container {
     width: 90%;
@@ -293,43 +227,45 @@ footer {
     font-size: 18px;
   }
 
-  @media only screen and (min-width 0px) and (max-width 700px) {
-    .card-text {
-      display: none !important;
-    }
+@media only screen and (min-width 0px) and (max-width 700px){
+.card-text{
+  display: none !important;
+}
 
-    .table {
-      display: none !important;
-    }
+.table{
+  display: none !important;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+
+
+  body {
+    padding: 0 .5em;
   }
 
-  @media screen and (max-width: 450px) {
-    body {
-      padding: 0 .5em;
-    }
-
-    .container {
-      width: 100%;
-    }
-
-    nav {
-      height: 20;
-    }
-
-    .sidenav {
-      padding-top: 15px;
-    }
-
-    .sidenav a {
-      font-size: 18px;
-    }
-
-    .fa {
-      font-size: 20px;
-      padding: 10px;
-    }
-
-    .container {
-      width: 90%;
-    }
+  .container {
+    width: 100%;
   }
+
+  nav {
+    height: 20;
+  }
+
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
