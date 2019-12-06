@@ -8,10 +8,10 @@ document.body.appendChild(sheet);
 
 
 
-var getTrackStyle = function (el) {
+var getTrackStyle = function(el) {
   var curVal = el.value,
-      val = (curVal - 1) * 16.666666667,
-      style = '';
+    val = (curVal - 1) * 16.666666667,
+    style = '';
 
   // Set active label
   $('.range-labels li').removeClass('active selected');
@@ -34,14 +34,14 @@ var getTrackStyle = function (el) {
 
 
 
-$rangeInput.on('input', function () {
+$rangeInput.on('input', function() {
   sheet.textContent = getTrackStyle(this);
 });
 
 
 
 // Change input value on label click
-$('.range-labels li').on('click', function () {
+$('.range-labels li').on('click', function() {
   var index = $(this).index();
 
   $rangeInput.val(index + 1).trigger('input');

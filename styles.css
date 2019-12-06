@@ -21,11 +21,12 @@ navbar-brand.resize {
   font-size: 1.5em;
   border: 0;
 }
-.navbar-collapse{
+
+.navbar-collapse {
   margin-right: 10px;
 }
 
-.navbar-toggler collapsed{
+.navbar-toggler collapsed {
   border-color: black;
   border: 2px;
 }
@@ -38,9 +39,8 @@ li a {
   float: left;
   margin-right: 35px;
 }
-
-
 }
+
 .link {
   background-color: darkgoldenrod;
   margin-right: 50px;
@@ -52,17 +52,15 @@ li a {
   float: left;
 }
 
-
-
 /*start of rental page*/
-
-h3{
+h3 {
   text-align: center;
 }
-.container-header{
-border-style: 1px solid black;
 
+.container-header {
+  border-style: 1px solid black;
 }
+
 table {
   border: 3px solid;
   border-collapse: collapse;
@@ -84,14 +82,6 @@ table td {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
 /*cart.html content */
 /*cart.html*/
 * {
@@ -99,25 +89,30 @@ table td {
 }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
+  /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
+  /* IE10 */
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
+  /* IE10 */
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%;
+  /* IE10 */
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; /* IE10 */
+  -ms-flex: 75%;
+  /* IE10 */
   flex: 75%;
 }
 
@@ -164,6 +159,7 @@ label {
   cursor: pointer;
   font-size: 17px;
 }
+
 .btn:hover {
   background-color: #45a049;
 }
@@ -213,57 +209,58 @@ footer {
 }
 
 /*css for store page*/
-
-.card{
+.card {
   margin-bottom: 10px;
 }
+
 /*end store page*/
-
 /* start of Lessons*/
-
 /*jumbotron*/
-.display-4{
+.display-4 {
   text-align: center;
 }
-.jumbotron{
-  background-color:#FFF8DC;
-}
-p{
-  margin-bottom: 30px;
-}
-/*end*/
 
-.body{
+.jumbotron {
   background-color: #FFF8DC;
 }
-hr{
+
+p {
+  margin-bottom: 30px;
+}
+
+/*end*/
+.body {
+  background-color: #FFF8DC;
+}
+
+hr {
   border: 2px solid black;
 }
-.row-brian{
+
+.row-brian {
   margin-bottom: 30px;
 }
-.row-anna{
+
+.row-anna {
   margin-bottom: 30px;
 }
-.row-doug{
+
+.row-doug {
   padding-bottom: 20px;
 }
-.profile{
+
+.profile {
   max-width: 100%;
   max-height: 300px;
   margin-right: 40px;
 }
-h2{
-text-align: center;
-color: 	#800000;
+
+h2 {
+  text-align: center;
+  color: #800000;
 }
 
-
-
 /*end lesson page*/
-
-
-
 /*FOOTER*/
 footer {
   width: 100%;
@@ -273,7 +270,6 @@ footer {
 }
 
 /*reviews*/
-
 /* Landscape phones and down */
 @media screen and (max-width: 900px) {
   body {
@@ -296,45 +292,43 @@ footer {
     font-size: 18px;
   }
 
-@media only screen and (min-width 0px) and (max-width 700px){
-.card-text{
-  display: none !important;
-}
+  @media only screen and (min-width 0px) and (max-width 700px) {
+    .card-text {
+      display: none !important;
+    }
 
-.table{
-  display: none !important;
-}
-
-}
-
-@media screen and (max-width: 450px) {
-
-
-  body {
-    padding: 0 .5em;
+    .table {
+      display: none !important;
+    }
   }
 
-  .container {
-    width: 100%;
-  }
+  @media screen and (max-width: 450px) {
+    body {
+      padding: 0 .5em;
+    }
 
-  nav {
-    height: 20;
-  }
+    .container {
+      width: 100%;
+    }
 
-  .sidenav {
-    padding-top: 15px;
-  }
+    nav {
+      height: 20;
+    }
 
-  .sidenav a {
-    font-size: 18px;
-  }
-  .fa{
-    font-size: 20px;
-    padding: 10px;
-  }
+    .sidenav {
+      padding-top: 15px;
+    }
 
-  .container {
-    width: 90%;
+    .sidenav a {
+      font-size: 18px;
+    }
+
+    .fa {
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .container {
+      width: 90%;
+    }
   }
-}
