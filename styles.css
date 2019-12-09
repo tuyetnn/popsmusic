@@ -59,10 +59,7 @@ li a {
 h3{
   text-align: center;
 }
-.container-header{
-border-style: 1px solid black;
 
-}
 table {
   border: 3px solid;
   border-collapse: collapse;
@@ -220,6 +217,9 @@ footer {
 @media screen and (max-width: 900px) {
   body {
     padding: 0 .5em;
+  }
+  table,thead,tbody,th,td,tr{
+  display: inline-grid;
   }
 
   .container {
