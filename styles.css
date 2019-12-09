@@ -151,7 +151,6 @@ footer {
 /*end store page*/
 
 /* start of Lessons*/
-
 /*jumbotron*/
 .display-4{
   text-align: center;
@@ -188,12 +187,11 @@ h2{
 text-align: center;
 color: 	#800000;
 }
-
-.btn 
-{background-color:maroon;
+/*end lesson page*/
+.btn {
+  background-color:maroon;
   color:white;
 padding:12px;
-margin: 10px 0;
 border:none;
 width:100%;
 border-radius: 3px;
@@ -201,7 +199,7 @@ cursor: pointer;
 font-size:17px
 }
 
-/*end lesson page*/
+
 
 
 
